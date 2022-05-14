@@ -24,8 +24,8 @@ mod_yum() {
 #### 4. install software
 install_softwares() {
     # 1
-    if [ `rpm -qa vim lrzsz wget nmap nc tree curl tcpdump sysstat lsof net-tools ntpdate|wc -l` -lt 13 ]; then
-        yum -y install vim lrzsz wget nmap nc tree curl tcpdump sysstat lsof net-tools ntpdate dos2unix
+    if [ `rpm -qa vim lrzsz wget nmap nc tree curl tcpdump sysstat lsof net-tools ntpdate htop nload open-vm-tools yum-plugin-priorities|wc -l` -lt 17 ]; then
+        yum -y install vim lrzsz wget nmap nc tree curl tcpdump sysstat lsof net-tools ntpdate dos2unix htop nload open-vm-tools yum-plugin-priorities
     fi
     # 0
     yum groups install "Development Tools" -y
