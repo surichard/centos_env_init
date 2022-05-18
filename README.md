@@ -5,10 +5,10 @@
 
 first action
 
-'''
+```
 yum install git -y
 git clone https://github.com/surichard/centos_env_init.git
 cd centos_env_init
 chmod +x *
 ./init.sh
-'''
+```
