@@ -28,7 +28,7 @@ install_softwares() {
         yum -y install vim lrzsz wget nmap nc tree curl tcpdump sysstat lsof net-tools ntpdate dos2unix htop nload open-vm-tools yum-plugin-priorities
     fi
     # 0
-    yum groups install "Development Tools" -y
+####   yum groups install "Development Tools" -y
 }
 
 #### 7. Configure environment variables
